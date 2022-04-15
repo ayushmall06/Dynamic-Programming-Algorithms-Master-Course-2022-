@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+/* --------------- @ayushmall06 -------------- */
+
 int factorial(int n) {
 	// base case
 	if(n == 0) {
@@ -15,4 +17,5 @@ int main() {
 	int n;
 	cin >> n;
 	cout << factorial(n) << endl;
+	return 0;
 }
